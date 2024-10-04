@@ -1,0 +1,19 @@
+{
+  "name": "tg-html",
+  "version": "0.0.1",
+  "description": "Telegram bot HTML bindings for JSX templates",
+  "license": "MIT",
+  "keywords": ["telegram", "jsx", "html"],
+  "author": "Trent Small <sixstring982@gmail.com>",
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "typecheck": "tsc src/**/* --noEmit",
+    "typecheck:watch": "tsc src/**/* --noEmit --watch"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.2"
+  }
+}
